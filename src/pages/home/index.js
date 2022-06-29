@@ -5,6 +5,7 @@ export const HomePage = () => {
 
     const {data, isLoading } = useQueryGetUser({userName: 'JoaoDeluchi'})
 
+    
     if(isLoading){
         return <span>Loading....</span>
     }

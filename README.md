@@ -26,4 +26,11 @@ Automatically revalidate at a time interval
 
 Automatically retry on error 
 
-# compare(a, b)
+### Dev experience 
+# Conditional Fetching 
+
+Some fetches may need a value that another request provides
+
+# Error 
+
+Errors are easy to handle and can make code cleaner (no try catch statements)
